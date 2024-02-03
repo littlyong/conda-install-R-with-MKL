@@ -81,10 +81,17 @@ attached base packages:
 loaded via a namespace (and not attached):
 [1] compiler_4.3.2
 
-
 ```
 
-## 七、其他说明
+
+## 七、检查是否缺相关依赖
+
+```R
+install.packages("Rcpp")
+#如果安装Rcpp失败，无需找原因，可能是原先安装的conda base环境修改过，删除系统和环境内的conda，从第一步开始安装
+```
+
+## 八、其他说明
 
 ```sh
 #1 conda相关命令可从网上查询
@@ -95,4 +102,6 @@ loaded via a namespace (and not attached):
 source activate Rmkl
 
 ```
+
+
 
