@@ -26,7 +26,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/f
 conda config --show-sources #查看镜像源
 ```
 
-## 三、#创建R环境
+## 三、创建R环境
 
 ```sh
 #创建R环境，链接mkl的blas库
