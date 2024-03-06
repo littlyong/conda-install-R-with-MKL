@@ -88,7 +88,9 @@ loaded via a namespace (and not attached):
 
 ```R
 install.packages("Rcpp")
-#如果安装Rcpp失败，无需找原因，可能是原先安装的conda base环境修改过，删除系统和环境内的conda，从第一步开始安装
+#如果安装Rcpp失败，尝试使用conda安装
+conda install r-Rcpp
+#若有包安装不上可使用conda安装即可
 ```
 
 ## 八、其他说明
