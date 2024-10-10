@@ -41,7 +41,7 @@ conda create -n Rmkl r-base=4.3.1 "libblas=*=*mkl*" -y
 conda config --set auto_activate_base false
 ```
 
-## 五、将conda加入环境变量
+## 五、将conda加入环境变量（先进行第六步，如果BLAS/LAPACK:后面是当前创建的环境，则无需进行该步操作！）
 
 ```sh
 #通过vim ~/.bashrc加入.bashrc或.bash_profile中
